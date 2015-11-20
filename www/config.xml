@@ -1,13 +1,13 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "it.iba.dileo"
+		id        = "com.iba.dileo"
 		versionCode="1.0"
 		version   = "1.0">
-		<name>G.DiLeo</name>
-		<description>Ermes Italia srl</description>
-		<author href="http://www.ermesitalia.it" email="info@ermesitalia.it">
-		 Ermes Italia srl
+		<name>E.DiLeo</name>
+		<description>Giovanni Di Leo, by Ermes Italia</description>
+		<author href="http://www.tesav.it" email="info@tesav.it">
+		Di Leo
 		</author>
 		<preference name="phonegap-version" value="3.7.0" />
 		<preference name="orientation" value="portrait" />
@@ -38,7 +38,7 @@
 		<preference name="BackgroundColor" value="#707070"/>
 		<preference name="KeepRunning" value="true"/>
 		<preference name="DisallowOverscroll" value="true"/>
-		<preference name="LoadingDialog" value="Ermes Italia,Loading"/> 
+		<preference name="LoadingDialog" value="ErmesItalia,Loading"/> 
 		<preference name="LoadUrlTimeoutValue" value="20000" />
 		<preference name="disable-cursor" value="true" />
 		<gap:platform name="android" />
@@ -106,6 +106,5 @@
 		<gap:plugin name="de.appplant.cordova.plugin.email-composer"  />
 		<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
 		<gap:plugin name="pushbots-cordova-plugin" source="npm" />
-		<gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
 
 	</widget>

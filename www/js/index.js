@@ -937,10 +937,8 @@ function aprimappa () {
 
 function aprivideo1 () {
 	
-	 VideoPlayer.play("http://www.youtube.com/embed/TLs41ZM0Vzw");
-	 
-	/*var id = "cf5PVgbrlCM";
-	var ref = window.open('http://www.youtube.com/embed/dmDuBQTm8so', '_system');
+	var id = "cf5PVgbrlCM";
+	var ref = window.open('http://www.youtube.com/embed/TLs41ZM0Vzw', '_system');
 	
 	ref.addEventListener('exit', function (event) {
 		
@@ -948,16 +946,14 @@ function aprivideo1 () {
 			ref.close();
 		}, 500);
 		
-	});*/
+	});
 	
 }
 
 function aprivideo2 () {
 	
-	 VideoPlayer.play("https://www.youtube.com/embed/_W_PMauOSC8");
-	
-	/*var id = "Hl10lNEVBrU";
-	var reff = window.open('http://www.youtube.com/embed/cf5PVgbrlCM?html5=1', '_system');
+	var id = "Hl10lNEVBrU";
+	var reff = window.open('https://www.youtube.com/embed/_W_PMauOSC8', '_system');
 	
 	reff.addEventListener('exit', function (event) {
 		
@@ -965,7 +961,7 @@ function aprivideo2 () {
 			reff.close();
 		}, 500);
 		
-	});*/
+	});
 
 }
 
