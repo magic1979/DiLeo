@@ -6,8 +6,8 @@
 		version   = "1.0">
 		<name>G.DiLeo</name>
 		<description>Giovanni Di Leo, by Ermes Italia</description>
-		<author href="http://www.tesav.it" email="info@tesav.it">
-		Di Leo
+		<author href="http://www.dileo.it" email="info@tesav.it">
+		Di Leo App
 		</author>
 		<preference name="phonegap-version" value="3.7.0" />
 		<preference name="orientation" value="portrait" />
