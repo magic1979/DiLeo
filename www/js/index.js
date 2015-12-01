@@ -283,11 +283,12 @@ function onResume() {
 	
 	setTimeout(function() {
 		//alert("onResume");
-		navigator.splashscreen.show();
+		//navigator.splashscreen.show();
 		window.location.href = "#page";
 		setTimeout(function() {
-			navigator.splashscreen.hide();
-		}, 2500);
+			//navigator.splashscreen.hide();
+			checkpush()
+		}, 500);
 	}, 0);
 	
 }
