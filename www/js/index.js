@@ -443,6 +443,7 @@ function provino22() {
 	var conta = 1;
 	localStorage.setItem("controllo", "1");
 	$("#contenutotext").show();
+	$("#sezionenews").show();
 	var contenuto22 = ""
 	
 	$(".spinner").show();
@@ -467,7 +468,7 @@ function provino22() {
 				  
 				  //contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' ><table border='0' width='100%' align='center' valign='center' class='nuova'><tr><td width='100%' align='center' valign='center'><div id='datepush' class='visione3'>"+ item.title +"</div></td></tr><tr><td width='100%' align='center' valign='center'><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td width='100%' valign='center' align='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' width='180px'></td></tr></table></td></tr><tr><td ><table class='div9' height='20px' width='100%'><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr></table></td></tr>"
 				  
-				  contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
+				  contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2DROID'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
 				  
 				  
 				  }
@@ -476,7 +477,7 @@ function provino22() {
 				  if(conta<3){
 					// contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center'><table width='100%' align='center' valign='center' border='0' class='nuova'><tr><td width='100%' align='center' valign='center'><div id='datepush' class='visione3IPAD'>"+ item.title +"</div></td></tr><tr><td width='100%' align='center' valign='center'><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td width='100%' valign='center' align='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' width='100px'></td></tr></table></td></tr><tr><td><table class='div9' height='20px' width='90%'><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr></table></td></tr>"
 				  
-					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
+					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2DROID'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
 				  }
 				  
 				  }
@@ -486,13 +487,13 @@ function provino22() {
 				  else{
 				  if(screen.width < 768){
 				  
-					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
+					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2DROID'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
 				  
 				  }
 				  else{
 				  if(conta<3){
 				  
-					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
+					contenuto22 = contenuto22 + "<tr title='"+ item.event_id +"'><td width='100%' align='center' valign='center' colspan='2'><table width='100%' align='center' valign='center'><tr><td width='50%' align='center' valign='center'><img src='http://interactivebusinessapp.it/event_image/full_size/by_tag/"+ item.image_tag +"' class='circolare'></td><td width='50%' align='center' valign='center'><div id='datepush' class='visione2DROID'><b>"+ item.title +"</b></div><div id='datepush2' class='visione'>"+ item.activated_at +" - "+ item.expire_on +"</div></td></tr><tr><td colspan='2'><hr></td></tr>"
 				  }
 				  }
 				  
